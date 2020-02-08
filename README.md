@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is an example for Infinispan-kafka connector
+This is an example for Camel-Kafka-connector
 
 ## What is needed
 
@@ -15,6 +15,6 @@ This is an example for Infinispan-kafka connector
 ```
 mvn clean package
 export CLASSPATH="$(find target/ -type f -name '*.jar'| grep '\-package' | tr '\n' ':')"
-$KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties config/CamelAWSS3..
-$KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties config/CamelJms..
+$KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties config/CamelAWSS3SourceConnector.properties
+$KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone1.properties config/CamelJmsSinkConnector.properties
 ```
