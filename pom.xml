@@ -20,9 +20,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:oscerd/infinispan-kafka-demo.git</connection>
-        <developerConnection>scm:git:git@github.com:oscerd/infinispan-kafka-demo.git</developerConnection>
-        <url>https://github.com/oscerd/infinispan-kafka-demo</url>
+        <connection>scm:git:git@github.com:oscerd/camel-kafka-connector-demo.git</connection>
+        <developerConnection>scm:git:git@github.com:oscerd/camel-kafka-connector-demo.git</developerConnection>
+        <url>https://github.com/oscerd/camel-kafka-connector-demo</url>
         <tag>HEAD</tag>
     </scm>
 
