@@ -13,6 +13,7 @@ This is an example for Camel-Kafka-connector
 ## Running
 
 ```
+$ARTEMIS_HOME/bin/$BROKER_NAME/bin/artemis run
 mvn clean package
 export CLASSPATH="$(find target/ -type f -name '*.jar'| grep '\-package' | tr '\n' ':')"
 $KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties config/CamelAWSS3SourceConnector.properties
